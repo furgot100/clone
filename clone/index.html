@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap Clone</title>
+    
+    <!-- BOOTSTRAP -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <!-- BOOTSTRAP THEME -->
+    <link rel="stylesheet" href="https://bootswatch.com/4/pulse/bootstrap.min.css">
+
+    <!-- CUSTOM STYLES -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-primary">
+        <a class="navbar-brand mr-0 mr-md-2 text-secondary" href="#">
+            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-bootstrap" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" d="M12 1H4a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V4a3 3 0 0 0-3-3zM4 0a4 4 0 0 0-4 4v8a4 4 0 0 0 4 4h8a4 4 0 0 0 4-4V4a4 4 0 0 0-4-4H4z"/>
+                <path fill-rule="evenodd" d="M8.537 12H5.062V3.545h3.399c1.587 0 2.543.809 2.543 2.11 0 .884-.65 1.675-1.483 1.816v.1c1.143.117 1.904.931 1.904 2.033 0 1.488-1.084 2.396-2.888 2.396zM6.375 4.658v2.467h1.558c1.16 0 1.764-.428 1.764-1.23 0-.78-.569-1.237-1.541-1.237H6.375zm1.898 6.229H6.375V8.162h1.822c1.236 0 1.887.463 1.887 1.348 0 .896-.627 1.377-1.811 1.377z"/>
+            </svg>
+        </a>
+        <div class="navbar-nav">
+            <b><a class="nav-item nav-link active text-secondary" href="#">Home</a></b>
+            <a class="nav-item nav-link text-secondary" href="#">Documentaion</a>
+            <a class="nav-item nav-link text-secondary" href="#">Examples</a>
+            <a class="nav-item nav-link text-secondary" href="#">Icons</a>
+            <a class="nav-item nav-link text-secondary" href="#">Themes</a>
+            <a class="nav-item nav-link text-secondary" href="#">Expo</a>
+            <a class="nav-item nav-link text-secondary" href="#">Blog</a>
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual collapse2">            
+            <ul class="navbar-nav ml-auto">
+                <div class="dropdown">
+                    <button class="btn dropdown-toggle text-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Dropdown
+                    </button>
+                </div>  
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M5.854 4.146a.5.5 0 0 1 0 .708L2.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0zm4.292 0a.5.5 0 0 0 0 .708L13.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 15c4.418 0 8-3.134 8-7s-3.582-7-8-7-8 3.134-8 7c0 1.76.743 3.37 1.97 4.6-.097 1.016-.417 2.13-.771 2.966-.079.186.074.394.273.362 2.256-.37 3.597-.938 4.18-1.234A9.06 9.06 0 0 0 8 15z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chat-square-dots-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.5a1 1 0 0 0-.8.4l-1.9 2.533a1 1 0 0 1-1.6 0L5.3 12.4a1 1 0 0 0-.8-.4H2a2 2 0 0 1-2-2V2zm5 4a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-secondary" href="#">
+                        <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                        </svg>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-outline-warning">Download</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Front page Banner -->
+    <div class="jumbotron text-center">
+        <div class="container">
+            <div class="row ">
+                <div class="col-8 col-sm-6">
+                    <h1 style="text-align:left ;">Build fast, responsive sites with Bootstrap</h1>
+                    <p class="lead mb-4" style="text-align:left">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vel justo lorem. Vivamus consequat, lorem ut iaculis ultricies, risus nisi pharetra enim, ut lacinia nibh ipsum id elit.
+                    </p>
+                    <button type="button" class="btn btn-primary" style="float: left;">Get Started</button>
+                    <button type="button" class="btn btn-secondary" style="float: left;">Download</button>
+
+                </div>
+                <div class="col-4 col-sm-6">
+                    <img style='float:right;width:600px;height:400px; margin-right:10px;' src="bootstrap.png" class="img-fluid" />
+                    <!-- <p>Lots of text here...With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a .clearfix and o</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Installation Section -->
+    <div class="container">
+        <div class="row mb-5 pb-md-4 align-items-center">
+            <div class="col-md-5">
+                <h1>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-code-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M14 1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2a1 1 0 0 0-1-1zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                        <path fill-rule="evenodd" d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                    </svg>
+                </h1>        
+                <h1>Installation</h1>
+                <h5>
+                    Install Bootstrap’s source Sass and JavaScript files via npm, Composer, or Meteor.
+                </h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula, metus eget rutrum faucibus, massa quam sodales nisi, sed euismod quam elit a tortor. Mauris.
+                </p>
+                <button type="button" class="btn btn-outline-info">Read Installaion Docs</button>
+            </div>
+            <div class="col-md-7 pl-md-5">
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-sh" data-lang="sh">
+                            # Via npm
+                            npm install bootstrap
+
+                            # Via gem
+                            gem install bootstrap -v 4.5.3
+                        </code>
+                    </pre>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5 pb-md-4 align-items-center">
+            <div class="col-md-5">
+                <h1>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cloud-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383z"/>
+                    </svg>
+                </h1>
+                <h2>jsDelivr</h2>
+                <h5>When you only need to include Bootstrap’s compiled CSS or JS, you can use jsDelivr.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula, metus eget rutrum faucibus, massa quam sodales nisi, sed euismod quam elit a tortor. Mauris.</p>
+                <button type="button" class="btn btn-outline-info">Explore the docs</button>
+            </div>
+            <div class="col-md-7 pl-md-5">
+                <figure class="highlight">
+                    <pre>
+                        <code class="language-sh" data-lang="sh">
+                            there should be code 
+                            but it doesn't work :(
+                        </code>
+                    </pre>
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row mb-5 pb-md-4 align-items-center">
+            <div class="col-md-5">
+                <h1>
+                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-circle-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0 6a6 6 0 1 1 12 0A6 6 0 0 1 0 6z"/>
+                        <path d="M12.93 5h1.57a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5v-1.57a6.953 6.953 0 0 1-1-.22v1.79A1.5 1.5 0 0 0 5.5 16h9a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 4h-1.79c.097.324.17.658.22 1z"/>
+                      </svg>
+                </h1>
+                <h2>Bootstrap Icons</h2>
+                <h5>For the first time ever, Bootstrap has its own open source SVG icon library, designed to work best with our components and documentation.</h5>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vehicula, metus eget rutrum faucibus, massa quam sodales nisi, sed euismod quam elit a tortor. Mauris.</p>
+                <button type="button" class="btn btn-outline-info">Get Bootstrap Icons</button>
+            </div>
+            <div class="col-md-7 pl-md-5">
+                <img class="img-fluid" src="icon.png"/>
+                <!-- <img style='float:right;width:600px;height:400px; margin-right:10px;' src="bootstrap.png" class="responsive" /> -->
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
